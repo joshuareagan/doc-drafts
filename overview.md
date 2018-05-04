@@ -33,7 +33,7 @@ Can events originating from your urbit cause side-effects in the outside world? 
 
 Each urbit is [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(computer_security)) in a virtual machine, Vere, which runs on Unix.  Code running in your urbit cannot make Unix system calls or otherwise affect the underlying platform.  Strictly speaking, internal urbit code can only change internal urbit state; it has no way of sending events outside of its runtime environment.  Functional purity is preserved.
 
-In practical terms, however, we don't want our urbit to be an impotent [brain in a vat](https://en.wikipedia.org/wiki/Brain_in_a_vat).  That's why Vere also serves as the intermediary between your urbit and Unix.  Vere observes the list of output events, and when external action is called for makes the appropriate system calls itself.  When external actions relevant to your urbit occur, Vere encodes and delivers them as input events.
+In practical terms, however, you don't want your urbit to be an impotent [brain in a vat](https://en.wikipedia.org/wiki/Brain_in_a_vat).  That's why Vere also serves as the intermediary between your urbit and Unix.  Vere observes the list of output events, and when external action is called for makes the appropriate system calls itself.  When external actions relevant to your urbit occur, Vere encodes and delivers them as input events.
 
 ### Arvo
 
