@@ -8,12 +8,12 @@ title: Technical overview
 
 # Technical overview
 
-Urbit is a clean-slate system software stack designed to implement an encrypted P2P network of general-purpose personal servers.  Each server on this network is a deterministic computer called an 'urbit' that runs inside a Unix-based virtual machine.
+Urbit is a clean-slate software stack designed to implement an encrypted P2P network of general-purpose personal servers.  Each server on this network is a deterministic computer called an 'urbit' that runs inside a Unix-based virtual machine.
 
 The current Urbit stack includes (among other things):
 
 - Arvo: the functional operating system of each urbit, written in Hoon.
-- Hoon: a high-level strictly typed functional programming language whose standard library includes a Hoon-to-Nock compiler.
+- Hoon: a strictly typed functional programming language whose standard library includes a Hoon-to-Nock compiler.
 - Nock: a low-level combinator language whose formal specification gzips to 340 bytes.
 - Vere: a Nock interpreter and Unix-based VM that mediates between each urbit and the Unix software layer.
 
@@ -33,7 +33,7 @@ Can events originating from your urbit cause side-effects in the outside world? 
 
 Each urbit is [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(computer_security)) in a virtual machine, Vere, which runs on Unix.  Code running in your urbit cannot make Unix system calls or otherwise affect the underlying platform.  Strictly speaking, internal urbit code can only change internal urbit state; it has no way of sending events outside of its runtime environment.  Functional purity is preserved.
 
-In practical terms, however, we don't want our urbit to be an impotent brain in a vat.  That's why Vere also serves as the intermediary between your urbit and Unix.  Vere observes the list of output events, and when external action is called for makes the appropriate system calls itself.  When external actions relevant to your urbit occur, Vere encodes and delivers them as input events.
+In practical terms, however, we don't want our urbit to be an impotent [brain in a vat](https://en.wikipedia.org/wiki/Brain_in_a_vat).  That's why Vere also serves as the intermediary between your urbit and Unix.  Vere observes the list of output events, and when external action is called for makes the appropriate system calls itself.  When external actions relevant to your urbit occur, Vere encodes and delivers them as input events.
 
 ### Arvo
 
