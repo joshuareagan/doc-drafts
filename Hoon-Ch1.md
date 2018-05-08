@@ -329,6 +329,8 @@ Let's do a few more examples:
 [65 76]
 ```
 
+For those who prefer to think in terms of binary numbers, there is another (equivalent) way to understand of noun addressing.  As before, the root of the binary tree (i.e., the whole noun) is at address `1`. For the node of a tree at any address `b`, where `b` is a binary number, you get the address of the head by concatenating a `0` to the end of `b`; and to get the tail, concatenate a `1` to the end. For example, the head of the node at binary address `111` is at `1110`, and the tail is at `1111`.
+
 ### Exercise 1.1.2
 
 Without using the dojo, evaluate the following expressions.  (Answers are at the bottom of the page.)
