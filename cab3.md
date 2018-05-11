@@ -15,20 +15,19 @@ Regular: *1-fixed*, then *battery*.
 
 ```
 |_  \\toro\\
-  ++  \\term\\  \\hoon\\
-  ++  \\term\\  \\hoon\\
-  ... 
-  --
+++  \\term\\  \\hoon\\
+++  \\term\\  \\hoon\\
+...
+--
 ```
 
 Example:
 
 ```
-++  hi
-  |_  a=@ud                         :: the
-  ++  hug  (add a 2)                :: 'hi'
-  ++  mug  (sub a 2)                :: door
-  --                                ::
+|_  a=@ud                         
+++  hug  (add a 2)                
+++  mug  (sub a 2)                
+--                                
 ```
 
 
