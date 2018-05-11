@@ -18,8 +18,8 @@ Syntax:                       Example:
 |_  \\toro\\                  |_  a=@ud
 ++  \\term\\  \\hoon\\        ++  hug  (add a 2)   
 ++  \\term\\  \\hoon\\        ++  mug  (sub a 2)
-...                           --
---
+...                           ++  lug  (mul a 2)
+--                            --
 ```
 
 ## Expands to
