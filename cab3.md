@@ -14,22 +14,13 @@ form a *door*, a many-armed core with a sample.
 Regular: *1-fixed*, then *battery*.
 
 ```
-|_  \\toro\\
-++  \\term\\  \\hoon\\
-++  \\term\\  \\hoon\\
-...
+Syntax:                       Example:
+|_  \\toro\\                  |_  a=@ud
+++  \\term\\  \\hoon\\        ++  hug  (add a 2)   
+++  \\term\\  \\hoon\\        ++  mug  (sub a 2)
+...                           --
 --
 ```
-
-Example:
-
-```
-|_  a=@ud                         
-++  hug  (add a 2)                
-++  mug  (sub a 2)                
---                                
-```
-
 
 ## Expands to
 
