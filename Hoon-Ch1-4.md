@@ -444,7 +444,7 @@ We're playing in the Urbit `:dojo`.  The dojo is sort of like a cross between a 
 You can use the dojo to add a noun with a face to the subject.  Type
 
 ```
-> =a 42
+> =a 37
 ```
 
 You've set the face `a` to the value `37`.  The dojo puts this binding in the Hoon subject for expressions to use. So you can write:
@@ -458,7 +458,7 @@ You've set the face `a` to the value `37`.  The dojo puts this binding in the Ho
 
 > ? [4 a]
   {@ud @ud}
-[4 42]
+[4 37]
 ```
 
 To unbind `a`, just omit the value:
