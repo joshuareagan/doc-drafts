@@ -167,7 +167,7 @@ The `add` function in the Hoon standard library operates on all atoms, regardles
 30
 ```
 
-The reason these add up correctly is that unsigned auras all map directly to the 'correct' atom underneath.  That is, `16`, `0b1.000`, and `0x10` are all the exact same atom, just with different literal syntax.  (This doesn't hold for signed versions of the auras!)
+The reason these add up correctly is that unsigned auras all map directly to the 'correct' atom underneath.  For example, `16`, `0b1.0000`, and `0x10` are all the exact same atom, just with different literal syntax.  (This doesn't hold for signed versions of the auras!)
 
 ## Auras as 'Soft' Types
 
