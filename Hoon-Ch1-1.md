@@ -158,7 +158,7 @@ Each number is an atom; each dot is a cell. Another example, this time for `[[7 
       /   \
     .       .
    / \     / \
-  7  45  87  65
+  7  13  87  65
 ```
 
 An atom is a trivial tree of just one node; e.g., `42`.
