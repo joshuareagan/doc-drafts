@@ -270,7 +270,7 @@ You can't see it here, but the inferred type of `b` in `[& b]` is `@`.  That sub
 [%.n 12 14]
 ```
 
-You can't see it here either, but the inferred type of `b` in `[| b]` is `^`.  That subhoon is only evaluated if `?=(@ b)` evaluates as true, so `b` can't be an atom there.  It follows that it must be a cell.
+You can't see it here either, but the inferred type of `b` in `[| b]` is `^`.  That subhoon is only evaluated if `?=(@ b)` evaluates as false, so `b` can't be an atom there.  It follows that it must be a cell.
 
 ##### The Type Spear
 
