@@ -771,29 +771,27 @@ We'll use this state machine in a program that deals `a` hands of `b` cards each
 Save this as `carddeal.hoon` in `/gen` of your urbit's pier and run in the dojo:
 
 ```
-> +carddeal [4 5]
+> +deck [3 4]
 ~[
-  ~[[%eight %hearts] [%queen %hearts] [%four %spades] [%six %spades] [%six %diamonds]]
-  ~[[%five %hearts] [%king %hearts] [%two %hearts] [%ten %spades] [%nine %hearts]]
-  ~[[%queen %spades] [%jack %hearts] [%seven %diamonds] [%ten %hearts] [%king %spades]]
-  ~[[%three %clubs] [%ace %clubs] [%nine %diamonds] [%ten %diamonds] [%ten %clubs]]
+  ~[[%queen %spades] [%jack %hearts] [%three %diamonds] [%six %spades]]
+  ~[[%king %diamonds] [%eight %hearts] [%five %clubs] [%two %diamonds]]
+  ~[[%three %clubs] [%nine %spades] [%six %diamonds] [%three %hearts]]
 ]
 
-> +carddeal [4 5]
+> +deck [3 4]
 ~[
-  ~[[%ten %diamonds] [%four %spades] [%five %hearts] [%ace %hearts] [%seven %clubs]]
-  ~[[%king %spades] [%five %spades] [%king %clubs] [%king %hearts] [%two %spades]]
-  ~[[%ten %clubs] [%three %clubs] [%queen %hearts] [%five %clubs] [%nine %hearts]]
-  ~[[%three %spades] [%seven %spades] [%five %diamonds] [%jack %hearts] [%queen %spades]]
+  ~[[%king %clubs] [%ten %clubs] [%ten %diamonds] [%seven %spades]]
+  ~[[%six %hearts] [%six %clubs] [%three %spades] [%four %hearts]]
+  ~[[%seven %clubs] [%jack %diamonds] [%two %spades] [%five %spades]]
 ]
 
-> carddeal [4 5]
+> +deck [3 4]
 ~[
-  ~[[%ace %diamonds] [%nine %diamonds] [%two %hearts] [%seven %clubs] [%king %hearts]]
-  ~[[%three %hearts] [%ten %clubs] [%king %spades] [%ten %hearts] [%nine %clubs]]
-  ~[[%five %clubs] [%four %diamonds] [%four %clubs] [%two %clubs] [%nine %hearts]]
-  ~[[%ace %spades] [%ace %clubs] [%queen %hearts] [%nine %spades] [%eight %spades]]
+  ~[[%seven %diamonds] [%nine %clubs] [%five %diamonds] [%three %diamonds]]
+  ~[[%ace %spades] [%jack %spades] [%two %spades] [%nine %hearts]]
+  ~[[%king %diamonds] [%six %spades] [%queen %clubs] [%eight %clubs]]
 ]
+
 ```
 
 You get a different set of hands each time you run the generator.
