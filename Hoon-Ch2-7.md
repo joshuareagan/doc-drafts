@@ -111,7 +111,7 @@ One way to cast appropriately is to use the `^+` rune, as in the following:
   [(add a b) this(a (add a b))]
 ```
 
-The relevant addition is the line with `^+  [0 this]`.  The `^+` rune is used when one wants to use using an example noun, i.e., when you want to cast for a value of the same type as the example.  The example `[0 this]` is a cell type whose head is an `@ud`, and whose tail is a core of the same type as `this`.  And `this` is how the `num` core refers to itself.
+The relevant addition is the line with `^+  [0 this]`.  The `^+` rune is used when one wants to do a cast with an example noun, i.e., when you want to cast for a value of the same type as the example.  The example `[0 this]` is a cell type whose head is an `@ud`, and whose tail is a core of the same type as `this`.  And `this` is how the `num` core refers to itself.
 
 #### `$_` Create a Type From an Example
 
