@@ -74,7 +74,7 @@ Now you can see the intermediate values of the sample of `a` for each modified v
 
 ### `=^` Pin a Value and Replace a Leg
 
-The `=^` takes four subexpressions: `=^(a b c d)`.  The first three modify the subject, and the `d` is evaluated against that subject.  `a` is a face name, `b` is a wing, and `c` is an expression that evaluates to a cell.  The subject is modified as follows: (1) `c` is evaluated, producing a cell; (2) the head of that cell is pinned to the subject, `a` becoming the face name for it; and (3) the wing at `b` is replaced with the tail of the cell produced by `c`.
+The `=^` rune takes four subexpressions: `=^(a b c d)`.  The first three modify the subject, and the `d` is evaluated against that subject.  `a` is a face name, `b` is a wing, and `c` is an expression that evaluates to a cell.  The subject is modified as follows: (1) `c` is evaluated, producing a cell; (2) the head of that cell is pinned to the subject, `a` becoming the face name for it; and (3) the wing at `b` is replaced with the tail of the cell produced by `c`.
 
 For example, let's consider `=^  v1  num  inc.num` from the program above.  `inc.num` produces a cell, the head of which is an atom.  This atom is pinned to the head of the subject and given the face name `v1`.  The tail of the cell produced by `inc.num` is a variant of the `num` core, and becomes the new value of `num`.  The fourth subexpression of this `=^` expression is the rest of the program, i.e.:
 
