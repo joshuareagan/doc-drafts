@@ -623,7 +623,7 @@ We won't explain all the details of `%say` generators here; that's for a later t
 --
 ```
 
-With this version of the program, you get a different sorted deck of cards each time its run!
+With this version of the program, you get a different sorted deck of cards each time it's run!
 
 ### Dealing Cards with a State Machine
 
@@ -771,21 +771,21 @@ We'll use this state machine in a program that deals `a` hands of `b` cards each
 Save this as `carddeal.hoon` in `/gen` of your urbit's pier and run in the dojo:
 
 ```
-> +deck [3 4]
+> +carddeal [3 4]
 ~[
   ~[[%queen %spades] [%jack %hearts] [%three %diamonds] [%six %spades]]
   ~[[%king %diamonds] [%eight %hearts] [%five %clubs] [%two %diamonds]]
   ~[[%three %clubs] [%nine %spades] [%six %diamonds] [%three %hearts]]
 ]
 
-> +deck [3 4]
+> +carddeal [3 4]
 ~[
   ~[[%king %clubs] [%ten %clubs] [%ten %diamonds] [%seven %spades]]
   ~[[%six %hearts] [%six %clubs] [%three %spades] [%four %hearts]]
   ~[[%seven %clubs] [%jack %diamonds] [%two %spades] [%five %spades]]
 ]
 
-> +deck [3 4]
+> +carddeal [3 4]
 ~[
   ~[[%seven %diamonds] [%nine %clubs] [%five %diamonds] [%three %diamonds]]
   ~[[%ace %spades] [%jack %spades] [%two %spades] [%nine %hearts]]
