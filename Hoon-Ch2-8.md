@@ -248,7 +248,7 @@ Note: there is currently a type system issue that causes some of these functions
 ~[11 22 33 44]
 ```
 
-Now let's use `?~` to prove that `b` isn't null, and then try to `flop` it:
+Now let's use `?~` to prove that `b` isn't null, and then try to `snag` it:
 
 ```
 > ?~(b ~ (snag 0 b))
@@ -308,14 +308,14 @@ The `roll` function takes a list and a gate, and accumulates a value of the list
 The `turn` function takes a list and a gate, and returns a list of the products of applying each item of the input list to the gate.  For example, to add `1` to each item in a list of atoms:
 
 ```
-> %+(turn `(list @)`~[11 22 33 44] |=(a=@ +(a)))
+> (turn `(list @)`~[11 22 33 44] |=(a=@ +(a)))
 ~[12 23 34 45]
 ```
 
 Or to double each item in a list of atoms:
 
 ```
-> %+(turn `(list @)`~[11 22 33 44] |=(a=@ (mul 2 a)))
+> (turn `(list @)`~[11 22 33 44] |=(a=@ (mul 2 a)))
 ~[22 44 66 88]
 ```
 
