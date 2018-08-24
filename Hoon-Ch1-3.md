@@ -12,7 +12,7 @@ Hoon isn't an object-oriented programming language; it's a "subject-oriented" pr
 
 For now we can say three things about the subject: (1) every Hoon expression is evaluated relative to some subject; (2) roughly, the subject defines the environment in which a Hoon expression is evaluated; and (3) the subject is a noun.
 
-In fact, you already created some subjects in lesson 1.1 when you used `+` to return a fragment of a noun:
+In fact, you already created some subjects in lesson 1.2 when you used `+` to return a fragment of a noun:
 
 ```
 > +1:[[11 22] 33]
