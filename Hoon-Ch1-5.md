@@ -28,7 +28,7 @@ A gate is a core, but it's not just any core.  It has two distinctive properties
 A gate:  [$ [sample context]]
 ```
 
-The `$` arm is the code for producing the output value, the sample is the input value, and the context is any other data necessary for `$` to run correctly.
+To reiterate, the `$` arm is the code for producing the output value, the sample is the input value, and the context is any other data necessary for `$` to run correctly.
 
 As a tree, a gate looks like the following:
 
@@ -185,7 +185,7 @@ Let's look at the context of `inc`:
 
 You can see that this is exactly the subject before we put `inc` into the subject.
 
-### Exercise 1.4.1
+### Exercise 1.5.1
 
 Write a gate that takes an atom, `a=@`, and which returns double the value of `a`.  Bind this gate to `double` and test it in the dojo.  A solution is given at the end of this lesson.
 
@@ -284,7 +284,7 @@ Before finishing the lesson let's unbind `ten`:
 > =ten
 ```
 
-## Exercise 1.4.1 Solution
+## Exercise 1.5.1 Solution
 
 Write a gate that takes an atom, `a=@`, and which returns double the value of `a`.  Bind this gate to `double` and test it in the dojo.
 
