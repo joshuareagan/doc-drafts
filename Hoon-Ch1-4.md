@@ -71,25 +71,7 @@ Simply put, the battery is code and the payload is data.  The payload contains a
 
 ### Battery
 
-A battery is a cell of one or more arm(s).  That is, a battery is one or more Nock formula(s) that, when computed, expect the subject to be organized as a core.  If there are `n` arms -- assuming `n` is a positive integer -- they are arranged in a cell as follows:
-
-```
-[arm-1 arm-2 arm-3 ... arm-n]
-```
-
-Let's say you have a battery with five arms.  As a binary tree this looks like:
-
-```
-         .
-        / \
-   arm-1   .
-          / \
-     arm-2   .
-            / \
-       arm-3   .
-              / \
-         arm-4   arm-5
-```
+A battery is a cell containing one or more arm(s).  That is, a battery is one or more Nock formula(s) that, when computed, expect the subject to be organized as a core.  For Hoon programming it's not important to know just how those arms are arranged in the battery.  Just keep in mind that this is where the core's computations live.
 
 ### Payload
 
