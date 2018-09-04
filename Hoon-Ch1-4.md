@@ -186,16 +186,21 @@ That's enough to specify the battery of the core created by `|%`.  But how is th
 ]
 ```
 
-Compare the above with the value of `c` once we bound it to the core:
+Compare the above with the payload of `c`.  We use `+` to look at the tail of `c`:
 
 ```
-> c
-< 4.oep
-  { {{a/@ud b/{@ud @ud}} our/@p now/@da eny/@uvJ}
-    $~
-    <16.igq 19.rrs 41.xjd 112.hmp 224.nab 54.tyv 119.wim 31.ohr 1.jmk $143>
-  }
->
+> +:c
+[ [ [a=12 b=[22 24]]
+    our=~bitnus-holleb-rocmeg-fotfer--migsum-nidsym-hilput-patmus
+    now=~2018.9.4..22.32.14..9c94
+      eny
+    \/0vqk.7dj10.kjlpi.nctqg.mp15l.29i8e.s5228.f7iln.79dl9.onrhn.dtf2i.d3eed.8i\/
+      qvp.0mlff.62tqo.uh6ke.k10hp.kuc76.pj2j5.qclgb.o4niq
+    \/                                                                         \/
+  ]
+  ~
+  <16.igq 19.rrs 41.xjd 112.hmp 224.nab 54.tyv 119.wim 31.ohr 1.jmk $143>
+]
 ```
 
 `c`, like all cores, is a cell of battery and payload and it's pretty printed inside a set of angled brackets, `< >`.  The battery of four arms is represented by the pretty-printer as `4.oep`.  The `4` represents the number of arms in the battery, and the `oep` is a [hash](https://en.wikipedia.org/wiki/Hash_function) of the battery.  The tail is the exact same as the subject of the `|%` expression (but it's pretty-printed in a slightly different way).
