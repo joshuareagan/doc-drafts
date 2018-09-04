@@ -161,7 +161,11 @@ Now use the following multi-line expression to bind `c` to a core, then evaluate
 
 Note: binding `c` to the core created by the `|%` expression will fail unless you have already bound `a` and `b` to the relevant values, as we did above.  Our having already bound them is what lets us use them in that expression.
 
-#### Explaining `|%` Expressions
+`c`, like all cores, is a cell of battery and payload, and it's pretty printed inside a set of angled brackets: `< >`.  The battery of four arms is represented by the pretty-printer as `4.oep`.  The `4` represents the number of arms in the battery, and the `oep` is a [hash](https://en.wikipedia.org/wiki/Hash_function) of the battery.  The tail is a copy of the subject of the `|%` expression (but it's pretty-printed in a slightly different way).
+
+(You'll notice that there are several other cores in the payload.  For example, `16.igq` is a battery of `16` arms, `19.rrs` is a battery of `19` arms, etc.)
+
+#### `|%` Expressions
 
 We'll cover Hoon syntax thoroughly in lesson 2.2.  For now, take for granted that `|%` is a 'rune' used to produce a core.  The `++` runes are used to define the arms of the core's battery, and is followed by both an arm name and a computation.  The `--` rune is used to indicate that there are no more arms to be defined, and indicates the end of the expression.
 
@@ -192,7 +196,7 @@ Compare the above with the payload of `c`.  We use `+` to look at the tail of `c
 > +:c
 [ [ [a=12 b=[22 24]]
     our=~bitnus-holleb-rocmeg-fotfer--migsum-nidsym-hilput-patmus
-    now=~2018.9.4..22.32.14..9c94
+    now=~2018.8.17..23.53.43..c6b5
       eny
     \/0vqk.7dj10.kjlpi.nctqg.mp15l.29i8e.s5228.f7iln.79dl9.onrhn.dtf2i.d3eed.8i\/
       qvp.0mlff.62tqo.uh6ke.k10hp.kuc76.pj2j5.qclgb.o4niq
@@ -202,10 +206,6 @@ Compare the above with the payload of `c`.  We use `+` to look at the tail of `c
   <16.igq 19.rrs 41.xjd 112.hmp 224.nab 54.tyv 119.wim 31.ohr 1.jmk $143>
 ]
 ```
-
-`c`, like all cores, is a cell of battery and payload and it's pretty printed inside a set of angled brackets, `< >`.  The battery of four arms is represented by the pretty-printer as `4.oep`.  The `4` represents the number of arms in the battery, and the `oep` is a [hash](https://en.wikipedia.org/wiki/Hash_function) of the battery.  The tail is the exact same as the subject of the `|%` expression (but it's pretty-printed in a slightly different way).
-
-(You'll notice that there are several other cores in the payload.  For example, `16.igq` is a battery of `16` arms, `19.rrs` is a battery of `19` arms, etc.)
 
 ### Address-Based Wings
 
