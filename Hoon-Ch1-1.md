@@ -19,7 +19,7 @@ Once you're finished you can boot your very own urbit.
 
 An *urbit* is an Urbit virtual computer with persistent state that can connect to the Urbit network.  (Note the lowercase 'u' here.  'Urbit' is the entire software stack, whereas 'an urbit' is a local instance.).  Each urbit is associated with a unique number that plays three distinct roles: (1) it's an address on the Urbit network, (2) it's a cryptographic identity, and (3) it's (in principle) a human memorable name.  Normally an urbit's name is represented as a string starting with `~`, as in `~zod` or `~taglux-nidsep`.
 
-These may not look like numbers, but they are.  Each urbit name is written in a base-256 format, where each 'digit' is a syllable.  Imagine your phone number as a pronounceable string which sounds like a name in a foreign language. `~zod` is urbit zero (making it a very important urbit indeed!). An ordinary user-level urbit is a 'planet', and it's named by a 32-bit number.  The latter is represented as a four-syllable string; e.g., the planet name `~taglux-nidsep` is the number 6,095,360.
+These may not look like numbers, but they are.  Each urbit name is written in a base-256 format, where each 'digit' is a syllable.  Imagine your phone number as a pronounceable string which sounds like a name in a foreign language.  An ordinary user-level urbit is a 'planet', and it's named by a 32-bit number.  The latter is represented as a four-syllable string; e.g., the planet name `~taglux-nidsep` is the number 6,095,360.
 
 For this tutorial you'll boot and run what we call a 'comet'.  *Comets* are urbits whose names are 128-bits or 16 syllables, such as:
 
