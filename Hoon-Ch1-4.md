@@ -99,9 +99,9 @@ Why must an arm have its parent core as the subject, when it's computed?  As sta
 
 An arm can also make use of the other arms in its parent core.  This is a useful feature of arms that will be discussed in more detail later.
 
-## A Definitive Definition of an Arm
+## Final Definition of an Arm
 
-Now that you have the relevant background knowledge about cores, we can finally give a definitive definition of what an arm is.
+Now that you have the relevant background knowledge about cores, we can finally give a complete definition of what an arm is.
 
 An arm is a Nock formula in the battery of a core, and it's to be computed with its parent core as the subject.
 
@@ -158,6 +158,8 @@ Now use the following multi-line expression to bind `c` to a core, then evaluate
   }
 >
 ```
+
+Note: binding `c` to the core created by the `|%` expression will fail unless you have already bound `a` and `b` to the relevant values, as we did above.  Our having already bound them is what lets us use them in that expression.
 
 #### Explaining `|%` Expressions
 
