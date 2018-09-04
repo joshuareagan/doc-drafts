@@ -23,7 +23,7 @@ Once you're finished you can boot your very own ship.
 
 A *ship* is an Urbit virtual computer with persistent state that can connect to the Urbit network.  Each ship is associated with a unique number that plays four distinct roles: (1) it's the name of a the ship in question, (2) it's an address on the Urbit network, (3) it's a cryptographic identity, and (4) it's (in principle) a human memorable name.  Normally a ship's name is represented as a string starting with `~`, as in `~zod` or `~taglux-nidsep`.
 
-These may not look like numbers, but they are.  Each ship name is written in a base-256 format, where each digit is a syllable.  Imagine your phone number as a pronounceable string which sounds like a name in a foreign language. `~zod` is ship zero (making it a very important ship indeed!). An ordinary user-level ship is a 'planet', and it's named by a 32-bit number which becomes a four-syllable string.  The planet name `~taglux-nidsep` is the number 6,095,360.
+These may not look like numbers, but they are.  Each ship name is written in a base-256 format, where each digit is a syllable.  Imagine your phone number as a pronounceable string which sounds like a name in a foreign language.  An ordinary user-level ship is a 'planet', and it's named by a 32-bit number which becomes a four-syllable string.  The planet name `~taglux-nidsep` is the number 6,095,360.
 
 For this tutorial you'll boot and run what we call a 'comet'.  *Comets* are ships whose names are 128-bits or 16 syllables, such as:
 
