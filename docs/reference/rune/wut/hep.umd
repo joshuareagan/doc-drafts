@@ -1,13 +1,13 @@
----
-navhome: /docs/
-next: true
-sort: 12
-title: ?- "wuthep"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'4'
+        title/'?- "wuthep"'
+    ==
+;>
 
-# `?- "wuthep"` 
+# `?- "wuthep"`
 
-`[%wthp p=wing q=(list (pair model value))]`: switch against a 
+`[%wthp p=wing q=(list (pair model value))]`: switch against a
 union, with no default.
 
 ## Expands to
@@ -45,7 +45,7 @@ not special handling for `?-` ("wuthep"), just a consequence of the
 semantics of `?:` ("wutcol"), which `?-` reduces to.
 
 A missing case will throw the `mint-lost` error.  An extra case
-will throw `mint-vain`.  (Ecclesiastes did nothing wrong.)
+will throw `mint-vain`.
 
 ## Examples
 
@@ -55,12 +55,13 @@ will throw `mint-vain`.  (Ecclesiastes did nothing wrong.)
                    $a  20
                    $b  42
                  ==
+
 ~zod:dojo> (cor %a)
 20
+
 ~zod:dojo> (cor %b)
 42
+
 ~zod:dojo> (cor %c)
 ! nest-fail
 ```
-
-

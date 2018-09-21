@@ -1,13 +1,13 @@
----
-navhome: /docs/
-next: true
-sort: 5
-title: $% "buccen"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'5'
+        title/'$% "buscen"'
+    ==
+;>
 
-# `$% "buccen"` 
+# `$% "buscen"`
 
-`[%bccn p=(list [[aura @] model])]`: mold which recognizes a union tagged by head atom.
+`[%bscn p=(list [[aura @] spec])]`: structure which recognizes a union tagged by head atom.
 
 ## Normalizes to
 
@@ -21,15 +21,15 @@ Void if `p` is empty.
 For the first item `i` in `p`, the cell `[q.p.i.p $:q.i.p]`.
 Crashes if `p` is empty.
 
-## Syntax 
+## Syntax
 
 Regular form: *2-running*.
 
 ## Discussion
 
-A `$%` ("buccen") is a tagged union, an extremely common data model.
+A `$%` ("buscen") is a tagged union, an extremely common data model.
 
-Make sure the first item in your `$%` terminates, or the default will 
+Make sure the first item in your `$%` terminates, or the default will
 be an infinite loop!
 
 ## Examples

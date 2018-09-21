@@ -1,9 +1,9 @@
----
-navhome: /docs/
-next: true
-sort: 5
-title: ^| "ketbar"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'5'
+        title/'^| "ketbar"'
+    ==
+;>
 
 # `^| "ketbar"`
 
@@ -36,7 +36,7 @@ The prettyprinter shows the core metal (`.` gold, `|` iron):
 ```
 ~zod:dojo> |=(@ 1)
 <1.gcq [@  @n <250.yur 41.wda 374.hzt 100.kzl 1.ypj %151>]>
+
 ~zod:dojo> ^|(|=(@ 1))
 <1|gcq [@  @n <250.yur 41.wda 374.hzt 100.kzl 1.ypj %151>]>
 ```
-

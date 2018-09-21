@@ -1,11 +1,11 @@
----
-navhome: /docs/
-next: true
-sort: 9
-title: ~/ "sigfas"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'12'
+        title/'~/ "signet"'
+    ==
+;>
 
-# `~/ "sigfas"`
+# `~/ "signet"`
 
 `[%sgfs p=term q=hoon]`: jet registration for gate with
 registered context.
@@ -22,7 +22,7 @@ Regular: *2-fixed*.
 
 ## Examples
 
-From the kernel: 
+From the kernel:
 ```
 ++  add
   ~/  %add

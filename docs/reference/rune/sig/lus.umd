@@ -1,9 +1,9 @@
----
-navhome: /docs/
-next: true
-sort: 6
-title: ~+ "siglus"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'9'
+        title/'~+ "siglus"'
+    ==
+;>
 
 # `~+ "siglus"`
 
@@ -15,7 +15,7 @@ title: ~+ "siglus"
 
 ## Convention
 
-Caches the formula and subject of `p` in a local cache (generally 
+Caches the formula and subject of `p` in a local cache (generally
 transient in the current event).
 
 ## Syntax

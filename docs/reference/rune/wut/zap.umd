@@ -1,13 +1,13 @@
----
-navhome: /docs/
-next: true
-sort: 7
-title: ?! "wutzap"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'11'
+        title/'?! "wutzap"'
+    ==
+;>
 
 # `?! "wutzap"`
 
-`[%wtzp p=hoon]`: logical not.
+`[%wtzp p=hoon]`: logical NOT.
 
 ## Expands to
 

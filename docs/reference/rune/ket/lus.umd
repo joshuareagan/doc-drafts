@@ -1,18 +1,17 @@
----
-navhome: /docs/
-next: true
-sort: 2
-title: ^+ "ketlus"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'2'
+        title/'^+ "ketlus"'
+    ==
+;>
 
 # `^+ "ketlus"`
 
-`[%ktls p=value q=value]`: typecast by example (hoon).
+`[%ktls p=hoon q=hoon]`: typecast by inferred type.
 
 ## Produces
 
-The value of `q` with the type of `p`, if the type of `q` nests
-within the type of `p`.  Otherwise, `nest-fail`.
+The value of `q` with the type of `p`, if the type of `q` nests within the type of `p`.  Otherwise, `nest-fail`.
 
 ## Syntax
 

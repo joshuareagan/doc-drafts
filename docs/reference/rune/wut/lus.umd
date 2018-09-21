@@ -1,12 +1,13 @@
----
-navhome: /docs/
-sort: 13
-title: ?+ "wutlus"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'5'
+        title/'?+ "wutlus"'
+    ==
+;>
 
 # `?+ "wutlus"`
 
-`[%wtls p=wing q=value r=(list (pair model value))]`: switch against 
+`[%wtls p=wing q=hoon r=(list (pair spec hoon))]`: switch against
 a union, with a default.
 
 ## Expands to
@@ -48,10 +49,13 @@ An extra case will throw `mint-vain`.  A lost case defaults.
                    $a  20
                    $b  42
                  ==
+
 ~zod:dojo> (cor %a)
 20
+
 ~zod:dojo> (cor %b)
 42
+
 ~zod:dojo> (cor %c)
 240
 ```

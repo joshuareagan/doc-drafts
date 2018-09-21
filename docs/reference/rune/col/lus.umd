@@ -1,9 +1,9 @@
----
-navhome: /docs/
-next: true
-sort: 3
-title: :+ "collus"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'3'
+        title/':+ "collus"'
+    ==
+;>
 
 # `:+ "collus"`
 
@@ -26,6 +26,7 @@ Regular: *3-fixed*.
               2
             3
 [1 2 3]
-/~zod:dojo> :+(%a ~ 'b')
+
+~zod:dojo> :+(%a ~ 'b')
 [%a ~ 'b']
 ```

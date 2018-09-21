@@ -1,13 +1,13 @@
----
-navhome: /docs/
-next: true
-sort: 1
-title: ;: "semcol"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'1'
+        title/';: "miccol"'
+    ==
+;>
 
-# `;: "semcol"`
+# `;: "miccol"`
 
-`[%smcl p=hoon q=(list hoon)]`: call a binary function as an n-ary function.
+`[%mccl p=hoon q=(list hoon)]`: call a binary function as an n-ary function.
 
 ## Expands to
 

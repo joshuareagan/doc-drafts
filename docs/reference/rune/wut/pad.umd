@@ -1,13 +1,13 @@
----
-navhome: /docs/
-next: true
-sort: 5
-title: ?& "wutpam"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'9'
+        title/'?& "wutpad"'
+    ==
+;>
 
-# `?& "wutpam"`
+# `?& "wutpad"`
 
-`[%wtpm p=(list hoon)]`: logical and.
+`[%wtpm p=(list hoon)]`: logical AND.
 
 ## Expands to
 

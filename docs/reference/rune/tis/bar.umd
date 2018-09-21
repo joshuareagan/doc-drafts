@@ -1,13 +1,13 @@
----
-navhome: /docs/
-next: true
-sort: 8
-title: =| "tisbar"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'12'
+        title/'=| "tisbar"'
+    ==
+;>
 
 # `=| "tisbar"`
 
-`[%tsbr p=model q=value]`: combine a defaulted mold with the subject.
+`[%tsbr p=spec q=hoon]`: combine a default type value with the subject.
 
 ## Expands to
 
@@ -21,7 +21,7 @@ Regular: *2-fixed*.
 
 ## Discussion
 
-`=|` "declares a variable" which is "uninitialized," presumably 
+`=|` "declares a variable" which is "uninitialized," presumably
 because you'll set it in a loop or similar.
 
 ## Examples
@@ -30,7 +30,7 @@ because you'll set it in a loop or similar.
 ~zod:dojo> =foo  |=  a=@
                  =|  b=@
                  =-  :(add a b c)
-                 c=2 
+                 c=2
 ~zod:dojo> (foo 5)
 7
 ```

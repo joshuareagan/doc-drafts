@@ -1,13 +1,13 @@
----
-navhome: /docs/
-next: true
-sort: 11
-title: ?^ "wutket"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'3'
+        title/'?^ "wutket"'
+    ==
+;>
 
 # `?^ "wutket"`
 
-`[%wtkt p=wing q=hoon r=hoon]`: branch on whether a wing 
+`[%wtkt p=wing q=hoon r=hoon]`: branch on whether a wing
 of the subject is a cell.
 
 ## Expands to

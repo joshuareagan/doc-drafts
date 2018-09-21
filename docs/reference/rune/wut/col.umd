@@ -1,9 +1,9 @@
----
-navhome: /docs/
-next: true
-sort: 1
-title: ?: "wutcol"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'1'
+        title/'?: "wutcol"'
+    ==
+;>
 
 # `?: "wutcol"`
 
@@ -11,14 +11,14 @@ title: ?: "wutcol"
 
 ## Produces
 
-If `p` produces yes, then `q`. If `p` produces no, `r`.
+If `p` produces yes, `%.y`, then `q`. If `p` produces no, `%.n`, then `r`.
 If `p` is not a boolean, compiler yells at you.
 
 The subjects of `q` and `r` are constrained to match any
 pattern-matching algebra in `p`.  The analysis, which is
-conservative, understands any combination of [`?=` ("wuttis")](../tis/), 
-[`?&` ("wutpam")](../pam/), [`?|` ("wutbar")](../bar/), and 
-[`?!` ("wutzap")](../zap/), and reduces the subject appropriately when 
+conservative, understands any combination of [`?=` ("wuttis")](../tis/),
+[`?&` ("wutpad")](../pad/), [`?|` ("wutbar")](../bar/), and 
+[`?!` ("wutzap")](../zap/), and reduces the subject appropriately when
 compiling.
 
 If test analysis reveals that either branch is not taken,
@@ -44,16 +44,16 @@ Note also that all other branching hoons reduce to `?:`.
 ~zod:dojo> ?:((gth 1 0) 3 4)
 3
 
-~zod:dojo> ?:  (gth 1 0) 
-             3 
+~zod:dojo> ?:  (gth 1 0)
+             3
            4
 3
 
 ~zod:dojo> ?:((gth 1 2) 3 4)
 4
 
-~zod:dojo> ?:  (gth 1 2) 
-             3 
+~zod:dojo> ?:  (gth 1 2)
+             3
            4
 4
 ```

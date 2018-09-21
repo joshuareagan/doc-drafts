@@ -1,13 +1,13 @@
----
-navhome: /docs/
-next: true
-sort: 7
-title: $^ "bucket"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'7'
+        title/'$^ "busket"'
+    ==
+;>
 
-# `$^ "bucket"` 
+# `$^ "busket"`
 
-`[%bckt p=model q=model]`: mold which normalizes a union tagged by head depth (cell).
+`[%bskt p=spec q=spec]`: structure which normalizes a union tagged by head depth (cell).
 
 ## Normalizes to
 
@@ -35,7 +35,6 @@ Regular: *2-fixed*.
 ~zod:dojo> (b [%foo 19 22])
 [%foo p=19 q=22]
 
-~zod:dojo> $:b 
+~zod:dojo> $:b
 [%bar p=0]
 ```
-

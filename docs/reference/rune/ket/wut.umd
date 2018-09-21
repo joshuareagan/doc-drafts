@@ -1,8 +1,9 @@
----
-navhome: /docs/
-sort: 6
-title: ^? "ketwut"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'6'
+        title/'^? "ketwut"'
+    ==
+;>
 
 # `^? "ketwut"`
 
@@ -18,7 +19,7 @@ Regular: *1-fixed*.
 
 ## Discussion
 
-A lead core is an opaque generator; the payload can't be read or 
+A lead core is an opaque generator; the payload can't be read or
 written.
 
 Theorem: if type `x` nests within type `a`, a lead core producing
@@ -34,7 +35,7 @@ The prettyprinter shows the core metal (`.` gold, `?` lead):
 ```
 ~zod:dojo> |=(@ 1)
 <1.gcq [@  @n <250.yur 41.wda 374.hzt 100.kzl 1.ypj %151>]>
+
 ~zod:dojo> ^?(|=(@ 1))
 <1?gcq [@  @n <250.yur 41.wda 374.hzt 100.kzl 1.ypj %151>]>
 ```
-

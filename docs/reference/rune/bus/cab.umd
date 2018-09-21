@@ -1,13 +1,13 @@
----
-navhome: /docs/
-next: true
-sort: 9
-title: $_ "buccab"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'9'
+        title/'$_ "buscab"'
+    ==
+;>
 
-# `$_ "buccab"`
+# `$_ "buscab"`
 
-`[%bccb p=hoon]`: mold which normalizes to an example.
+`[%bscb p=hoon]`: structure that normalizes to an example.
 
 ## Expands to
 
@@ -23,7 +23,7 @@ Irregular: `_foo` is `$_(foo)`.
 
 ## Discussion
 
-`$_` ("buccab") discards the sample it's supposedly normalizing 
+`$_` ("buscab") discards the sample it's supposedly normalizing 
 and produces its *example* instead.
 
 ## Examples

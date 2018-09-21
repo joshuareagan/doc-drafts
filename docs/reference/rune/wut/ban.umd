@@ -1,9 +1,9 @@
----
-navhome: /docs/
-next: true
-sort: 3
-title: ?> "wutgar"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'7'
+        title/'?> "wutban"'
+    ==
+;>
 
 # `?> "wutgar"`
 

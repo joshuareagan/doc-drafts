@@ -1,13 +1,13 @@
----
-navhome: /docs/
-next: true
-sort: 2
-title: =< "tisgal"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'6'
+        title/'=< "tisled"'
+    ==
+;>
 
-# `=< "tisgal"`
+# `=< "tisled"`
 
-`[%tsgl p=hoon q=hoon]`: compose two hoons, inverted.
+`[%tsgl p=hoon q=hoon]`: compose two expressions, inverted.
 
 ## Expands to
 
@@ -21,13 +21,17 @@ Regular: *2-fixed*.
 
 Irregular: `foo:bar` is `=<(foo bar)`.
 
+## Discussion
+
+`=<` is just `=>` backwards.
+
 ## Examples
 
 ```
 ~zod:dojo> =<(b [a=1 b=2 c=3])
 2
 
-~zod:dojo> =<  b 
+~zod:dojo> =<  b
            [a=1 b=2 c=3]
 2
 

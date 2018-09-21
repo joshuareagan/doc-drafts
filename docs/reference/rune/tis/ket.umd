@@ -1,12 +1,13 @@
----
-navhome: /docs/
-sort: 12
-title: =^ "tisket"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'4'
+        title/'=^ "tisket"'
+    ==
+;>
 
 # `=^ "tisket"`
 
-`[%tskt p=taco q=wing r=hoon s=hoon]`: pin the head of a pair; change 
+`[%tskt p=skin q=wing r=hoon s=hoon]`: pin the head of a pair; change
 a leg with the tail.
 
 ## Expands to

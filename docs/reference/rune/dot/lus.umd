@@ -1,9 +1,9 @@
----
-navhome: /docs/
-next: true
-sort: 3
-title: .+ "dotlus"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'3'
+        title/'.+ "dotlus"'
+    ==
+;>
 
 # `.+ "dotlus"`
 
@@ -11,8 +11,7 @@ title: .+ "dotlus"
 
 ## Produces
 
-`p` plus `1` if `p` is an atom; otherwise, crashes.  The product
-atom has no aura.
+`p` plus `1` if `p` is an atom; otherwise, crashes.  The product atom has no aura.
 
 ## Syntax
 
@@ -23,12 +22,15 @@ Irregular: `+(6)` is `.+(6)`.
 ## Examples
 
 ```
-~zod:dojo> .+(6)
+> .+(6)
 7
-~zod:dojo> +(6)
+
+> +(6)
 7
-~zod:dojo> +(%foo)
+
+> +(%foo)
 7.303.015
-~zod:dojo> +([1 2])
-! nest-fail
+
+> +([1 2])
+nest-fail
 ```

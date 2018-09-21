@@ -1,9 +1,9 @@
----
-navhome: /docs/
-next: true
-sort: 5
-title: :* "coltar"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'5'
+        title/':* "coltar"'
+    ==
+;>
 
 # `:* "coltar"`
 
@@ -36,13 +36,15 @@ Regular: *running*.
 ## Examples
 
 ```
-/~zod:dojo> :*(5 3 4 1 4 9 0 ~ 'a')
+~zod:dojo> :*(5 3 4 1 4 9 0 ~ 'a')
 [5 3 4 1 4 9 0 ~ 'a']
-/~zod:dojo> [5 3 4 1 4 9 0 ~ 'a']
+
+~zod:dojo> [5 3 4 1 4 9 0 ~ 'a']
 [5 3 4 1 4 9 0 ~ 'a']
-/~zod:dojo> :*  5
+
+~zod:dojo> :*  5
                 3
-                4 
+                4
                 1
                 4
                 9

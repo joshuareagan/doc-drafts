@@ -1,14 +1,13 @@
----
-navhome: /docs/
-next: true
-sort: 9
-title: |* "bartar"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'10'
+        title/'|* "bartar"'
+    ==
+;>
 
-# `|* "bartar"` 
+# `|* "bartar"`
 
-`[%brtr p=model q=hoon]`: form a gill, a wet one-armed 
-core with sample.
+`[%brtr p=spec q=hoon]`: form a gill, a wet one-armed core with sample.
 
 ## Expands to
 
@@ -32,12 +31,12 @@ passes through the function, rather as if it was a macro (there
 is still only one copy of the code, however).
 
 Genericity is a powerful and dangerous tool.  Use gills only if
-you think you know what you're doing. 
+you think you know what you're doing.
 
-Just as with a [gate](../tis), we can recurse back into a gill 
+Just as with a [gate](../tis), we can recurse back into a gill
 with `$()`.
 
-> `$()` expands to `%=($)` (["centis"](../../cen/tis)), accepting 
+> `$()` expands to `%=($)` (["centis"](../../cen/tis)), accepting
 > a *jogging* body containing a list of changes to the subject.
 
 ## Examples

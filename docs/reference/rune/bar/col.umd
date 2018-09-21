@@ -1,9 +1,9 @@
----
-navhome: /docs/
-next: true
-sort: 8
-title: |: "barcol"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'9'
+        title/'|: "barcol"'
+    ==
+;>
 
 # `|: "barcol"`
 
@@ -18,7 +18,7 @@ title: |: "barcol"
 
 ## Discussion
 
-Note that `p` is a hoon, not a model; `|:` doesn't bunt your sample as
+Pick your own default value for the sample.  Note that `p` is an ordinary expression, not a type; `|:` doesn't bunt a sample as
 [`|=`](../tis) does.
 
 ## Syntax

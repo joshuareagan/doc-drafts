@@ -1,33 +1,28 @@
----
-navhome: /docs/
-next: true
-sort: 3
-title: $: "buccol"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'3'
+        title/'$: "buscol"'
+    ==
+;>
 
-# `$: "buccol"` 
+# `$: "buscol"`
 
-`[%bccl p=(list model)]`: form a mold which recognizes a tuple.
+`[%bscl p=(list spec)]`: form a cell type.
 
 ## Normalizes
 
-The tuple the length of `p`, normalizing each item, defaulting
-where the tuple does not match.
-
-Void if `p` is empty.
+The tuple the length of `p`, normalizing each item.
 
 ## Defaults to
 
-The tuple the length of `p`, defaulting each items.
-
-Crashes if `p` is empty.
+The tuple the length of `p`.
 
 ## Syntax
 
 Regular: *running*.
 
 Irregular (noun mode): `,[a b c]` is `$:(a b c)`.
-Irregular (mold mode): `[a b c]` is `$:(a b c)`.
+Irregular (structure mode): `[a b c]` is `$:(a b c)`.
 
 ## Examples
 

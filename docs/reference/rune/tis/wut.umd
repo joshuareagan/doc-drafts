@@ -1,9 +1,9 @@
----
-navhome: /docs/
-next: true
-sort: 13
-title: =? "tiswut"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'14'
+        title/'=? "tiswut"'
+    ==
+;>
 
 # `=? "tiswut"`
 

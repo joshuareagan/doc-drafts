@@ -1,9 +1,9 @@
----
-navhome: /docs/
-next: true
-sort: 5
-title: ~_ "sigcab"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'8'
+        title/'~_ "sigcab"'
+    ==
+;>
 
 # `~_ "sigcab"`
 
@@ -28,7 +28,7 @@ Shows `p` in stacktrace if `q` crashes.
 "sample error message"
 ford: build failed
 
-~zod:dojo> ~_  [%leaf "sample error message"] 
+~zod:dojo> ~_  [%leaf "sample error message"]
            !!
 "sample error message"
 ford: build failed

@@ -1,11 +1,11 @@
----
-navhome: /docs/
-next: true
-sort: 4
-title: ?< "wutgal"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'8'
+        title/'?< "wutled"'
+    ==
+;>
 
-# `?< "wutgal"`
+# `?< "wutled"`
 
 `[%wtgl p=hoon q=hoon]`: negative assertion.
 
@@ -28,4 +28,3 @@ Regular: *2-fixed*.
 ~zod:dojo> ?<(=(3 3) %foo)
 ford: build failed
 ```
-

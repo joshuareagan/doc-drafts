@@ -1,8 +1,9 @@
----
-navhome: /docs/
-sort: 11
-title: |? "barwut"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'3'
+        title/'|? "barwut"'
+    ==
+;>
 
 # `|? "barwut"`
 

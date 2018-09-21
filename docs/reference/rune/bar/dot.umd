@@ -1,9 +1,9 @@
----
-navhome: /docs/
-next: true
-sort: 4
-title: |. "bardot"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'6'
+        title/'|. "bardot"'
+    ==
+;>
 
 # `|. "bardot"`
 
@@ -53,6 +53,4 @@ A more interesting trap:
 Note that we can use `$()` to recurse back into the
 trap, since it's a core with an `$` arm.
 
-> `$()` expands to `%=($)` (["centis"](../../cen/tis)), 
-> accepting a *jogging* body containing a list of changes 
-> to the subject.
+> `$()` expands to `%=($)` (["centis"](../../cen/tis)), accepting a *jogging* body containing a list of changes to the subject.

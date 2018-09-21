@@ -1,17 +1,17 @@
----
-navhome: /docs/
-next: true
-sort: 4
-title: .= "dottis"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'4'
+        title/'.= "dottis"'
+    ==
+;>
 
-# `.=  "dottis"` 
+# `.=  "dottis"`
 
 `[%dtts p=hoon q=hoon]`: test for equality with Nock `5`.
 
 ## Produces
 
-`&`, `%.y`, `0` if `p` equals `q`; otherwise `|`, `%.n`, `1`.
+%.y` if `p` equals `q`; otherwise `%.n`.
 
 ## Syntax
 
@@ -21,22 +21,30 @@ Irregular: `=(a b)` is `.=(a b)`.
 
 ## Discussion
 
+The test for equality includes a type check.  Either the type of `p` must nest under the type of `q`, or _vice versa_.  Otherwise the result is a crash.
+
 Like Nock equality, `.=` ("dottis") tests if two nouns are the same,
 ignoring invisible pointer structure.  Because in a conventional
-noun implementation each noun has a lazy short hash, comparisons 
+noun implementation each noun has a lazy short hash, comparisons
 are fast unless the hash needs to be computed, or we are comparing
-separate copies of identical nouns.  (Comparing large duplicates 
+separate copies of identical nouns.  (Comparing large duplicates
 is a common cause of performance bugs.)
 
 ## Examples
 
 ```
-~zod:dojo> .=(0 0)
+> .=(0 0)
 %.y
-~zod:dojo> =(0 0)
+
+> =(0 0)
 %.y
-~zod:dojo> .=(1 2)
+
+> .=(1 2)
 %.n
-~zod:dojo> =(1 2)
+
+> =(1 2)
 %.n
+
+> =(12 [12 14])
+nest-fail
 ```

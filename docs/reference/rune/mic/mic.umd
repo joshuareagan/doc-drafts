@@ -1,13 +1,13 @@
----
-navhome: /docs/
-next: true
-sort: 3
-title: ;; "semsem"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'3'
+        title/';; "micmic"'
+    ==
+;>
 
-# `;; "semsem"`
+# `;; "micmic"`
 
-`[%smsm p=model q=value]`: normalize with a mold, asserting fixpoint.
+`[%mcmc p=spec q=hoon]`: normalize with a mold, asserting fixpoint.
 
 ## Expands to
 

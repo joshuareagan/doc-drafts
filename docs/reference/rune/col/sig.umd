@@ -1,8 +1,9 @@
----
-navhome: /docs/
-sort: 6
-title: :~ "colsig"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'6'
+        title/':~ "colsig"'
+    ==
+;>
 
 # `:~ "colsig"`
 
@@ -35,8 +36,10 @@ Regular: *running*.
 ```
 ~zod:dojo> :~(5 3 4 2 1)
 [5 3 4 2 1 ~]
+
 ~zod:dojo> ~[5 3 4 2 1]
 [5 3 4 2 1 ~]
+
 ~zod:dojo> :~  5
                3
                4

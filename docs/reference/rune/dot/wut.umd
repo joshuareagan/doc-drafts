@@ -1,9 +1,9 @@
----
-navhome: /docs/
-next: true
-sort: 2
-title: .? "dotwut"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'2'
+        title/'.? "dotwut"'
+    ==
+;>
 
 # `.? "dotwut"`
 
@@ -11,7 +11,7 @@ title: .? "dotwut"
 
 ## Produces
 
-`&`, `%.y`, `0` if `p` is a cell; otherwise `|`, `%.n`, `1`.
+`%.y` if `p` is a cell; otherwise `%.n`.
 
 ## Syntax
 
@@ -20,8 +20,9 @@ Regular: *1-fixed*.
 ## Examples
 
 ```
-~zod:dojo> .?(42)
+> .?(42)
 %.n
-~zod:dojo> .?([42 43])
+
+> .?([42 43])
 %.y
 ```

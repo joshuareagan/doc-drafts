@@ -1,9 +1,9 @@
----
-navhome: /docs/
-next: true
-sort: 5
-title: |- "barhep"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'7'
+        title/'|- "barhep"'
+    ==
+;>
 
 # `|- "barhep"`
 
@@ -21,12 +21,12 @@ Regular: *1-fixed*.
 
 ## Discussion
 
-The `|-` ("barhep") rune can be thought of as a "recursion 
-point". Since `|-` makes a `|.` (["bardot"](../dot), a core 
+The `|-` ("barhep") rune can be thought of as a "recursion
+point". Since `|-` makes a `|.` (["bardot"](../dot), a core
 with one arm named `$`, we can recurse back into it with `$()`.
 
-> `$()` expands to `%=($)` (["centis"](../../cen/tis)), 
-> accepting a *jogging* body containing a list of changes to 
+> `$()` expands to `%=($)` (["centis"](../../cen/tis)),
+> accepting a *jogging* body containing a list of changes to
 > the subject.
 
 ## Examples

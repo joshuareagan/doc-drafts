@@ -1,9 +1,9 @@
----
-navhome: /docs/
-next: true
-sort: 4
-title: ~| "sigbar"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'7'
+        title/'~| "sigbar"'
+    ==
+;>
 
 # `~| "sigbar"`
 
@@ -28,7 +28,7 @@ Regular: *2-fixed*.
 'sample error message'
 ford: build failed
 
-~zod:dojo> ~|  'sample error message' 
+~zod:dojo> ~|  'sample error message'
            !!
 'sample error message'
 ford: build failed

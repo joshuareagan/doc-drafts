@@ -1,11 +1,11 @@
----
-navhome: /docs/
-next: true
-sort: 8
-title: ~$ "sigbuc"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'11'
+        title/'~$ "sigbus"'
+    ==
+;>
 
-# `~$ "sigbuc"`
+# `~$ "sigbus"`
 
 `[%sgbc p=term q=hoon]`: profiling hit counter.
 

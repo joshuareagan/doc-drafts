@@ -1,9 +1,9 @@
----
-navhome: /docs/
-next: true
-sort: 2
-title: :_ "colcab"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'2'
+        title/':_ "colcab"'
+    ==
+;>
 
 # `:_ "colcab"`
 

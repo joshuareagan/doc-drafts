@@ -1,11 +1,11 @@
----
-navhome: /docs/
-next: true
-sort: 7
-title: ~= "sigtis"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'10'
+        title/'~= "sigtis"'
+    ==
+;>
 
-# `~= "sigtis"` 
+# `~= "sigtis"`
 
 `[%sgts p=hoon q=hoon]`: detect duplicate.
 
@@ -28,7 +28,7 @@ This code traverses a tree and replaces all instances of `42` with
 `420`:
 
 ```
-~zod:dojo> =foo |=  a=(tree) 
+~zod:dojo> =foo |=  a=(tree)
                 ?~(a ~ ~=(a [?:(=(n.a 42) 420 n.a) $(a l.a) $(a r.a)]))
 ~zod:dojo> (foo 42 ~ ~)
 [420 ~ ~]

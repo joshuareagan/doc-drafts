@@ -1,11 +1,11 @@
----
-navhome: /docs/
-next: true
-sort: 3
-title: ~! "sigzap"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'6'
+        title/'~? "sigzap"'
+    ==
+;>
 
-# `~! "sigzap"` 
+# `~! "sigzap"`
 
 `[%sgzp p=hoon q=hoon]`: print type on compilation fail.
 
@@ -31,7 +31,7 @@ Regular: *2-fixed*.
 ! @t
 ! find.a
 
-~zod:dojo> ~!  'foo' 
+~zod:dojo> ~!  'foo'
            a
 ! @t
 ! find.a

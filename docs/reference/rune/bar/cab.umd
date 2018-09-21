@@ -1,13 +1,13 @@
----
-navhome: /docs/
-next: true
-sort: 3
-title: |_ "barcab"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'5'
+        title/'|= "barcab"'
+    ==
+;>
 
-# `|_ "barcab"` 
+# `|_ "barcab"`
 
-`[%brcb p=model q=(map term foot)]`: form a door, a many-armed core
+`[%brcb p=spec q=(map term hoon)]`: form a door, a many-armed core
 with a sample.
 
 ## Expands to
@@ -25,7 +25,7 @@ Regular: *1-fixed*, then *battery*.
 ## Discussion
 
 A door is the general case of a gate (function).  A gate is a
-door with only one arm, the empty name `$`.
+door with only one arm, which has the empty name `$`.
 
 Other languages have no real equivalent of a door, but we often
 see the pattern of multiple functions with the same argument

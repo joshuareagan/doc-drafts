@@ -1,13 +1,13 @@
----
-navhome: /docs/
-next: true
-sort: 7
-title: =; "tissem"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'11'
+        title/'=; "tismic"'
+    ==
+;>
 
-# `=; "tissem"`
+# `=; "tismic"`
 
-`[%tssm p=taco q=hoon r=hoon]`: combine a named and/or typed noun with the
+`[%tssm p=skin q=hoon r=hoon]`: combine a named and/or typed noun with the
 subject, inverted.
 
 ## Expands to

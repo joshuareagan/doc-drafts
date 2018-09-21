@@ -1,11 +1,11 @@
----
-navhome: /docs/
-next: true
-sort: 2
-title: |= "bartis"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'4'
+        title/'|= "bartis"'
+    ==
+;>
 
-# `|= "bartis"` 
+# `|= "bartis"`
 
 `[%brts p=model q=hoon]`: form a gate, a dry one-armed core with sample.
 
@@ -23,10 +23,10 @@ Regular: *2-fixed*.
 
 ## Discussion
 
-A gate is a core with one arm named `$`, so, just as with 
+A gate is a core with one arm named `$`, so, just as with
 [`|-` ("barhep")](../hep), we can recurse back into it with `$()`.
 
-> `$()` expands to `%=($)` (["centis"](../../cen/tis)), accepting 
+> `$()` expands to `%=($)` (["centis"](../../cen/tis)), accepting
 > a *jogging* body containing a list of changes to the subject.
 
 ## Examples

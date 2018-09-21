@@ -1,14 +1,14 @@
----
-navhome: /docs/
-next: true
-sort: 6
-title: |^ "barket"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'8'
+        title/'|^ "barket"'
+    ==
+;>
 
 # `|^ "barket"`
 
-`[%brkt p=hoon q=(map term foot)]`: form a core with battery and
-anonymous arm `$` and kick it. 
+`[%brkt p=hoon q=(map term hoon)]`: form a core with battery and
+anonymous arm `$` and kick it.
 
 ## Expands to
 
@@ -36,4 +36,3 @@ A trivial cork:
            --
 100
 ```
-

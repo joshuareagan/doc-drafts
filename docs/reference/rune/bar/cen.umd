@@ -1,13 +1,13 @@
----
-navhome: /docs/
-next: true
-sort: 1
-title: |% "barcen"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'1'
+        title/'|% "barcen"'
+    ==
+;>
 
 # `|% "barcen"`
 
-[%brcb p=(map term foot)]: Form a core `[battery payload]` with subject as the payload.
+[%brcn p=(map term hoon)]: Form a core `[battery payload]` with subject as the payload.
 
 ## Produces
 
@@ -39,4 +39,3 @@ A trivial core:
 ~zod:dojo> (g.foo 1)
 101
 ```
-

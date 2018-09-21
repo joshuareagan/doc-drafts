@@ -1,13 +1,13 @@
----
-navhome: /docs/
-next: true
-sort: 6
-title: ?| "wutbar"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'10'
+        title/'?| "wutbar"'
+    ==
+;>
 
-# `?| "wutbar"` 
+# `?| "wutbar"`
 
-`[%wtbr p=(list hoon)]`: logical or.
+`[%wtbr p=(list hoon)]`: logical OR.
 
 ## Expands to
 

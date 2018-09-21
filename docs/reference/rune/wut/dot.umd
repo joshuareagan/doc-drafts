@@ -1,11 +1,11 @@
----
-navhome: /docs/
-next: true
-sort: 2
-title: ?. "wutdot"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'6'
+        title/'?. "wutdot"'
+    ==
+;>
 
-# `?. "wutdot"` 
+# `?. "wutdot"`
 
 `[%wtdt p=hoon q=hoon r=hoon]`: branch on a boolean test, inverted.
 
@@ -21,8 +21,8 @@ Regular: *3-fixed*.
 
 ## Discussion
 
-As usual with inverted forms, use `?.` ("wutdot") when the positive
-hoon of an `?:` ("wutcol") is much heavier than the negative hoon.
+As usual with inverted forms, use `?.` ("wutdot") when the yes-case
+expression is much taller and/or wider than the no-case expression.
 
 ## Examples
 

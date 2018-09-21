@@ -1,9 +1,9 @@
----
-navhome: /docs/
-next: true
-sort: 1
-title: %= "centis"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'1'
+        title/'%= "centis"'
+    ==
+;>
 
 # `%= "centis"`
 
@@ -25,8 +25,8 @@ Irregular: `foo(x 1, y 2, z 3)` is `%=(foo x 1, y 2, z 3)`.
 
 ## Discussion
 
-Note that `p` is a wing, not a hoon.  Knowing that a function
-call `(foo bar)` involves making `foo`, replacing its sample 
+Note that `p` is a wing, not just any expression.  Knowing that a function
+call `(foo bar)` involves making `foo`, replacing its sample
 at slot `+6` with `bar`, and taking the `$` limb, you might think
 `(foo bar)` would mean `%=(foo +6 bar)`.
 

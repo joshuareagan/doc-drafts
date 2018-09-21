@@ -1,11 +1,11 @@
----
-navhome: /docs/
-next: true
-sort: 11
-title: ~> "siggar"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'3'
+        title/'~> "sigban"'
+    ==
+;>
 
-# `~> "siggar"`
+# `~> "sigban"`
 
 `[%sggr p=$@(term [p=term q=hoon]) q=hoon]`: raw hint, applied
 to computation.

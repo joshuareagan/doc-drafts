@@ -1,11 +1,11 @@
----
-navhome: /docs/
-next: true
-sort: 4
-title: %+ "cenlus"
----
+:-  :~  navhome/'/docs/'
+        next/'true'
+        sort/'4'
+        title/'%+ "cenlus"'
+    ==
+;>
 
-# `%+ "cenlus"` 
+# `%+ "cenlus"`
 
 `[%cnls p=hoon q=hoon r=hoon]`: call with pair sample.
 
@@ -23,6 +23,7 @@ Regular: *3-fixed*.
 
 ```
 ~zod:dojo> =add-triple |=([a=@ b=@ c=@] :(add a b c))
+
 ~zod:dojo> %+(add-triple 1 [2 3])
 6
 ```
