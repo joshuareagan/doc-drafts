@@ -1,6 +1,6 @@
 # Polymorphism
 
-Hoon supports type [polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science%29) at the core level.  That is, each core has certain polymorphic properties which are tracked and maintained as metadata by Hoon's type system.  They determine the extent to which a core can be used as an interface for values of various types.  ("Polymorphism" = "many forms", so "type polymorphism" is about dealing with a variety of data types.)
+Hoon supports type [polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)) at the core level.  That is, each core has certain polymorphic properties which are tracked and maintained as metadata by Hoon's type system.  They determine the extent to which a core can be used as an interface for values of various types.  ("Polymorphism" = "many forms", so "type polymorphism" is about dealing with a variety of data types.)
 
 This is rather vaguely put so far.  We can clarify by talking more specifically about the different kinds of polymorphism supported in Hoon.  There are two kinds of type polymorphism for cores: [variance](https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)) and [genericity](https://en.wikipedia.org/wiki/Generic_programming).
 
