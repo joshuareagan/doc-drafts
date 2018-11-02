@@ -2,7 +2,7 @@
 
 Hoon supports type [polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science%29) at the core level.  That is, each core has certain polymorphic properties which are tracked and maintained as metadata by Hoon's type system.  They determine the extent to which a core can be used as an interface for values of various types.  ("Polymorphism" = "many forms", so "type polymorphism" is about dealing with a variety of data types.)
 
-This is rather vaguely put so far.  We can clarify by talking more specifically about the different kinds of polymorphism supported in Hoon.  There are two kinds of type polymorphism for cores: [variance](https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science%29) and [genericity](https://en.wikipedia.org/wiki/Generic_programming).
+This is rather vaguely put so far.  We can clarify by talking more specifically about the different kinds of polymorphism supported in Hoon.  There are two kinds of type polymorphism for cores: [variance](https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)) and [genericity](https://en.wikipedia.org/wiki/Generic_programming).
 
 Correspondingly, there are two broad categories of cores, one for each kind of polymorphism: wet and dry.  *Dry* cores use variance and *wet* cores use genericity.  (Note to writer: there can also be wet cores with different variance values, so this is misleading.)
 
@@ -318,6 +318,7 @@ The arms of a lead core can still be evaluated, however, as long as there is no 
 
 But don't try to read the sample:
 
+```
 > a.lead-gate
 -find.a.lead-gate
 ```
@@ -328,4 +329,4 @@ Once more let's clear up the dojo subject:
 =lead-gate
 ```
 
-## Wet CoreS
+## Wet Core
